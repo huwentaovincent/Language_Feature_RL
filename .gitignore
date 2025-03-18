@@ -1,0 +1,47 @@
+# Virtual Environment
+myenv_py310/
+myenv/
+venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+assets/dataset/
+assets/gpt2-small/
+assets/ppo_model/
+*.pt
+*.pth
+*.bin
+*.ckpt 
