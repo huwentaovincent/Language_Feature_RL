@@ -1,0 +1,11 @@
+{
+    "model_path": "assets/models/gpt2-small",
+    "features_path": "assets/features/filtered_lang_features.json",
+    "dataset_path": "assets/dataset/flores200",
+    "languages": ["zh", "ja", "es", "en", "de", "fr"],
+    "features_per_lang": 100,
+    "learning_rate": 1e-5,
+    "batch_size": 8,
+    "max_length": 128,
+    "num_epochs": 3
+  }
